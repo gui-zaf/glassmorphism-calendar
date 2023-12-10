@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     color: rgb(218, 218, 218);
+    user-select: none;
 }
 
 .container {
@@ -18,6 +19,7 @@
     background-size: cover;
     background-position: center;
     filter: brightness(0.8);
+    border-image: fill 0 linear-gradient(rgba(20, 20, 104, 0.485), #ff00000a);
 }
 
 .calendar {
