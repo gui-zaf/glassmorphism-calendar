@@ -15,3 +15,11 @@ date2.innerHTML = today.slice(1, 2);
 day.innerHTML = weekDays[now.getDay()];
 month.innerHTML = months[now.getMonth()];
 innerYear.innerHTML = now.getFullYear().toString().slice(2, 4);
+
+
+if (today === '14') {
+    const heart = document.createElement('span');
+    heart.innerHTML = "❤️";
+    day.appendChild(heart);
+}
+                        
