@@ -24,6 +24,20 @@
         </div>
     </main>
     <script src="js/script.js"></script>
+    <script>
+        const monthElement = document.getElementById('month');
+        const currentMonth = monthElement.textContent.trim();
+
+        if (currentMonth === 'December') {
+            const treeElement = document.createElement('img');
+            treeElement.src = 'images/tree.png';
+            treeElement.alt = 'Christmas Tree';
+            treeElement.classList.add('tree');
+
+            const rightElement = document.querySelector('.right');
+            rightElement.appendChild(treeElement);
+        }
+    </script>
 </body>
 
 </html>

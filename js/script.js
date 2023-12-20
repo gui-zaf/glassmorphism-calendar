@@ -16,10 +16,27 @@ day.innerHTML = weekDays[now.getDay()];
 month.innerHTML = months[now.getMonth()];
 innerYear.innerHTML = now.getFullYear().toString().slice(2, 4);
 
-
 if (today === '14') {
     const heart = document.createElement('span');
     heart.innerHTML = "❤️";
     day.appendChild(heart);
 }
-                        
+
+if (now.getMonth() === 11) {
+    const christmasTree = document.createElement('span');
+    christmasTree.innerHTML = "🎄";
+    month.appendChild(christmasTree);
+}
+
+
+if (today === '25') {
+    const santa = document.createElement('span');
+    santa.innerHTML = "🎅";
+    day.appendChild(heart);
+}
+
+
+
+
+
+
